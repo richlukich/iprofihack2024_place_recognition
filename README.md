@@ -106,3 +106,7 @@ model = ImageModel(
 Демонстрация работы с базовым кодом приведена в ноутбуке [iprofi_baseline_demo.ipynb](./iprofi_baseline_demo.ipynb).
 
 Презентация с семинара-демонстрации доступна по [ссылке](https://docs.google.com/presentation/d/1xQw4tB3hFYGhK8MfityR2FoFc1fM33yCAMmPdXADfyM/edit?usp=sharing).
+
+### Запуск
+
+Для визуализации датасета можно воспользоваться [скриптом](./make_video.py).
