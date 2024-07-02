@@ -2,7 +2,7 @@
 
 Данный репозиторий содержит базовое решение и вспомогательные скрипты для задачи "Распознай своё место на Физтехе" хакатона образовательного форума по искусственному интеллекту, математике и физике 2024.
 
-Презентация задачи доступна по [ссылке](https://docs.google.com/presentation/d/1QH5g8M8Fifn-zSt3_v-uAt8VtCKu9DZHzkLvHWNq1CU/edit?usp=sharing).
+Презентация задачи доступна по [ссылке](https://docs.google.com/presentation/d/1RfRXQ9x9w3P65KSUNuQcB3zTiU-aLzL4kDCBKoBMHq4/edit?usp=sharing).
 
 ## Датасеты
 
