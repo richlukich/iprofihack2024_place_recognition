@@ -78,9 +78,26 @@ sha256: `6ca5dc27d4928b1cbe6c1959b87a539f1dd9bc1764220c53b6d5e406e8cef310` NCLT_
 
 После этого вам станет доступен импорт кода из библиотеки `opr`:
 ```python
-from opr.models import minkloc_multimodal
+from opr.models.place_recognition.base import ImageModel
+from opr.modules.feature_extractors import ResNet18FPNFeatureExtractor
+from opr.modules import Add, GeM
 
-baseline_model = minkloc_multimodal(weights="path_to_checkpoint")
+feature_extractor = ResNet18FPNFeatureExtractor(
+    in_channels=3,
+    lateral_dim=256,
+    fh_num_bottom_up=4,
+    fh_num_top_down=0,
+    pretrained=True,
+)
+pooling = GeM()
+descriptor_fusion_module = Add()
+
+model = ImageModel(
+    backbone=feature_extractor,
+    head=pooling,
+    fusion=descriptor_fusion_module,
+)
+
 ```
 
 ### Запуск
