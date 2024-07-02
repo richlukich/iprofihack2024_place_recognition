@@ -16,7 +16,6 @@
 
 - RGB изобрадения для 2х камер (front/back)
 - Семантические маски для изображений каждой камеры
-- 6 DoF позу робота
 
 Подробнее про формат данных и структуру датасета см. [itlp_campus_dataset.md](docs/itlp_campus_dataset.md).
 
@@ -60,14 +59,14 @@ sha256: `6ca5dc27d4928b1cbe6c1959b87a539f1dd9bc1764220c53b6d5e406e8cef310` NCLT_
 
    # Библиотека MinkowskiEngine должна собираться из исходников с github:
    pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps \
-                          --install-option="--force_cuda" \
-                          --install-option="--blas=openblas"
+                          --config-settings="--install-option=--force_cuda" \
+                          --config-settings="--install-option=--blas=openblas"
    ```
-   Если последняя команда возвращает ошибку, то у вас новая версия pip, где `--install-option` необходимо заменить на `--global-option`:
+   Для работы с PyTorch 2.0+ и CUDA 12.X установите MinkowskiEngine (https://github.com/NVIDIA/MinkowskiEngine) из данного репозитория:
    ```bash
-   pip install -U git+https://github.com/NVIDIA/MinkowskiEngine -v --no-deps \
-                          --global-option="--force_cuda" \
-                          --global-option="--blas=openblas"
+   pip install -U git+https://github.com/richlukich/MinkowskiEngine -v --no-deps \
+                          --config-settings="--install-option=--force_cuda" \
+                          --config-settings="--install-option=--blas=openblas"
    ```
 
 3. Склонируйте и установите [Open Place Recognition](https://github.com/alexmelekhin/OpenPlaceRecognition):
