@@ -65,7 +65,7 @@ sha256: `6ca5dc27d4928b1cbe6c1959b87a539f1dd9bc1764220c53b6d5e406e8cef310` NCLT_
                           --config-settings="--install-option=--force_cuda" \
                           --config-settings="--install-option=--blas=openblas"
    ```
-   Для работы с PyTorch 2.0+ и CUDA 12.X установите MinkowskiEngine (https://github.com/NVIDIA/MinkowskiEngine) из данного репозитория:
+   Для работы с PyTorch 2.0+ и CUDA 12.X установите MinkowskiEngine из данного репозитория:
    ```bash
    pip install -U git+https://github.com/richlukich/MinkowskiEngine -v --no-deps \
                           --config-settings="--install-option=--force_cuda" \
