@@ -21,7 +21,7 @@
 Подробнее про формат данных и структуру датасета см. [itlp_campus_dataset.md](docs/itlp_campus_dataset.md).
 
 Данные можно найти/использовать на следующих ресурсах:
-- [Google Drive](https://drive.google.com/file/d/1rXsx0GEotwwTHjX1PveKdGzcatssO7wg/view?usp=sharing)
+- чуть позже
 
 
 Видео-демонстрации треков датасета (публичная часть):
