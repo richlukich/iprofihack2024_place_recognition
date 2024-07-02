@@ -22,6 +22,7 @@
 Данные можно найти/использовать на следующих ресурсах:
 - [Google Drive](https://drive.google.com/file/d/1rXsx0GEotwwTHjX1PveKdGzcatssO7wg/view?usp=sharing) (обновить)
 
+sha256: `a47d94a21b0723868d4b0ceac0a42f2890cbbc17f96067f1180612224e908c1c`  public.zip
 
 Видео-демонстрации треков датасета (публичная часть):
 - [2023-02-10-08-04-19-twilight](https://drive.google.com/file/d/1GcJ4jBFuT-Cr4MUTuZaqmX7WDgMNLLJ9/view?usp=share_link)
