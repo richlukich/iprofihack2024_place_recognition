@@ -22,7 +22,7 @@
 Подробнее про формат данных и структуру датасета см. [itlp_campus_dataset.md](docs/itlp_campus_dataset.md).
 
 Данные можно найти/использовать на следующих ресурсах:
-- [Google Drive](https://drive.google.com/file/d/1rXsx0GEotwwTHjX1PveKdGzcatssO7wg/view?usp=sharing) (обновить)
+- [Google Drive](https://drive.google.com/file/d/1txG6aPiy5XtxLOxFk0CxFk9Ey_VUsB5T/view?usp=sharing)
 
 sha256: `a47d94a21b0723868d4b0ceac0a42f2890cbbc17f96067f1180612224e908c1c`  public.zip
 
