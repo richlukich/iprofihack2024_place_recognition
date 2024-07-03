@@ -23,6 +23,7 @@
 
 Данные можно найти/использовать на следующих ресурсах:
 - [Google Drive](https://drive.google.com/file/d/1txG6aPiy5XtxLOxFk0CxFk9Ey_VUsB5T/view?usp=sharing)
+- [Kaggle](https://www.kaggle.com/datasets/richlukich/itlp-campus-dataset)
 
 sha256: `3a114e802de48eb12644cd51eeeb757d12524bea59d1563e543989939a522013`  public.zip
 
